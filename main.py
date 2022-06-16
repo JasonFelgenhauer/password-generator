@@ -1,4 +1,15 @@
 from tkinter import *
+import secrets
+import string
+
+# Function for generate password
+
+
+def generate_password():
+    alphabet = string.ascii_letters + string.digits
+    random_pass = ''.join(secrets.choice(alphabet) for i in range(20))
+    password.delete(0, END)
+    password.insert(0, random_pass)
 
 
 # Create window
@@ -22,7 +33,7 @@ title = Label(border_1, text='PASSWORD', font=('Arial', 40), fg='#FFFFFC', bg='#
 title.pack()
 
 # Create button
-button = Button(border_1, text='GENERATE', fg='#13293D', bg='#FFFFFC', font=('Arial', 20), bd=0, activebackground='#13293D', activeforeground='#FFFFFC')
+button = Button(border_1, text='GENERATE', fg='#13293D', bg='#FFFFFC', font=('Arial', 20), bd=0, activebackground='#13293D', activeforeground='#FFFFFC', command=generate_password)
 button.pack(fill=X)
 
 # Create password text
