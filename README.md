@@ -26,3 +26,8 @@ To install the different packages used :
 1. Add structure of the project
 2. Add the interface
 3. Add the generation of password
+4. Update README
+
+## ScreenShot
+
+![index](http://pics.jason-fel.be/uploads/1655373630image_2022-06-16_120029880.png)
