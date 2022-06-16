@@ -24,3 +24,4 @@ To install the different packages used :
 ## Push history
 
 1. Add structure of the project
+2. Add the interface
