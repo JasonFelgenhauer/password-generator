@@ -18,7 +18,9 @@ or download zip
 
 ## Run the project
 
-To install the different packages used :
+```
+python main.py
+```
 
 
 ## Push history
@@ -30,4 +32,4 @@ To install the different packages used :
 
 ## ScreenShot
 
-![index](http://pics.jason-fel.be/uploads/1655373630image_2022-06-16_120029880.png)
+![index](https://media.discordapp.net/attachments/767431513016500235/1122272781841739787/image.png?width=720&height=387)
